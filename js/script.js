@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     burger.addEventListener('click', function(event) {
         event.target.classList.toggle('burgerActive');
         menu.classList.toggle('menuShow');
+        document.body.classList.toggle('lock');
     });    
     // burger
     
